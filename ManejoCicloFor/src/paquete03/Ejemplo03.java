@@ -18,14 +18,16 @@ public class Ejemplo03 {
 
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-
+        
+        // Declaramos variables
         String nombre;
         String posicion;
         int edad;
         String lista = "Listado de jugadores\n";
         double estatura;
         int hasta;
-
+        
+        // Ingresamos la cantidad en "valor" para los jugadores.
         System.out.println("Ingrese la cantidad de jugadores que va a ingresar");
         hasta = entrada.nextInt();
 
@@ -39,7 +41,8 @@ public class Ejemplo03 {
             edad = entrada.nextInt();
             System.out.println("Ingrese la estatura del jugador");
             estatura = entrada.nextDouble();
-            lista = String.format("%s%d. %s -%s-, edad %d, estatura %.2f\n", lista,
+            
+            lista = String.format("%s%d. %s - %s-, edad %d, estatura %.2f\n", lista,
                     i, nombre, posicion, edad, estatura);
         }
 
