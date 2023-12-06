@@ -15,7 +15,7 @@ public class Ejemplo02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        // i+=2 significa ir de dos en dos
         for (int i = 1; i <= 10; i+=2) {
             System.out.printf("%d\n", i);
         }

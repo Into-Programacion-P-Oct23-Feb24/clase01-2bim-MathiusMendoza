@@ -15,7 +15,7 @@ public class Ejemplo04 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        // en este ejercicio presenta como decrece del numero 20 hasta que sea menor o igual a cero.
         for (int i = 20; i >= 0; i-=2) {
             System.out.printf("%d\n", i);
         }
